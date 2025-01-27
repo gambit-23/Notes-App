@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: lightcoral;
+  /* position: absolute; */
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+
+.heading {
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bolder !important;
+  color: black;
+  text-decoration: none;
+}
+.nav-bar ul li {
+  margin: 15px;
+  list-style-type: none;
+}
+
+.nav-bar ul a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.view-btn-create {
+  margin-right: 15px;
+  padding: 10px;
+  border-radius: 12px;
+  border: none;
+  background-color: wheat;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.create-heading {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+.create-notes-box {
+  width: max-content;
+  margin: 0 auto;
+}
+.create-notes-area {
+  margin-top: 20px;
+  height: 300px;
+  width: 500px;
+  text-align: center;
+}
+
+.author-input {
+  margin-top: 20px;
+  width: 500px;
+  height: 30px;
+}
+
+.save-btn {
+  text-align: center;
+}
+.create-save-btn {
+  /* margin: 0 auto; */
+  margin-top: 20px;
+  width: 140px;
+  height: 30px;
+  font-weight: bold;
+  border-radius: 9px;
+  border: none;
+  background-color: wheat;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.5s;
+}
+
+.create-save-btn:hover{
+  background-color: coral
+}
+
+.create-save-btn:active{
+  transform: scale(0.9);
+}

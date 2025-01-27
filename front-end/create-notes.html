@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create new notes</title>
+    <link rel="stylesheet" href="create-notes.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.3/axios.min.js"></script>
+  </head>
+  <body>
+    <form action="/" method="POST">
+      <nav class="nav-bar">
+        <a href="#" class="heading"> <span>Keep Notes</span> </a>
+        <ul class="nav-items">
+          <a href="./index.html"> <li>Home</li></a>
+          <a href="#"> <li>Sign Up</li></a>
+          <a href="#"> <li>Sign In</li></a>
+        </ul>
+        <a href="./view-notes.html">
+          <button type="button" class="view-btn-create">View Notes</button>
+        </a>
+      </nav>
+    </form>
+
+    <h1 class="create-heading">Create your notes</h1>
+
+    <div class="create-notes-box">
+      <textarea
+        name="create"
+        placeholder="Write your note here....."
+        class="create-notes-area"
+        id="notes-area"
+      ></textarea>
+      <div>
+        <input
+          type="text"
+          class="author-input"
+          placeholder="This note is written by....."
+          id="notes-author"
+        />
+      </div>
+
+      <div class="save-btn">
+        <button class="create-save-btn" onclick="createNotes()">
+          Save my note
+        </button>
+      </div>
+    </div>
+
+    <script src="./create-notes.js"></script>
+  </body>
+</html>

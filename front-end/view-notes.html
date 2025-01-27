@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>View Your Notes</title>
+    <link rel="stylesheet" href="view-notes.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.3/axios.min.js"></script>
+  </head>
+  <body>
+    <form action="/" method="POST">
+      <nav class="nav-bar">
+        <a href="#" class="heading"> <span>Keep Notes</span> </a>
+        <ul class="nav-items">
+          <a href="./index.html"> <li>Home</li></a>
+          <a href="#"> <li>Sign Up</li></a>
+          <a href="#"> <li>Sign In</li></a>
+        </ul>
+        <a href="./create-notes.html">
+          <button type="button" class="create-btn-view">Create Notes</button>
+        </a>
+      </nav>
+    </form>
+    <h1 class="view-heading">My Notes</h1>
+    <div class="view-notes-page">
+      <ul class="view-notes-list" id="view-notes-list">
+        <!-- <li class="view-notes-list-items">
+          <div class="notes-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis eum
+            nostrum rem, sint consectetur dolore adipisci inventore placeat
+            velit repellendus eveniet distinctio similique alias est! Nemo
+            temporibus nisi enim deleniti.
+          </div>
+          <div class="notes-author">Author: Sahil</div>
+        </li> -->
+      </ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    box-sizing: border-box;
+  }
+  
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightcoral;
+    /* position: absolute; */
+  }
+  
+  .nav-items {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+  }
+  
+  .heading {
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bolder !important;
+    color: black;
+    text-decoration: none;
+  }
+  .nav-bar ul li {
+    margin: 15px;
+    list-style-type: none;
+  }
+  
+  .nav-bar ul a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .create-btn {
+    /* margin-right: -1225px;  */
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    background-color: wheat;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .view-btn {
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    background-color: wheat;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .notes-here{
+      background-color: rebeccapurple;
+      /* display: flex; */
+      /* position: relative; */
+      display: flex;
+      width: 150px;
+      height: 200px;
+      margin: 20px 0 0 20px;
+  }
+  
+  .notes-number{
+      background-color: wheat;
+      /* display: flex; */
+      /* position: relative; */
+      display: flex;
+      width: fit-content;
+      height: 20px;
+      margin: 20px 0 0 20px;
+  }

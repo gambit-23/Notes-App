@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: lightcoral;
+  /* position: absolute; */
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+
+.heading {
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bolder !important;
+  color: black;
+  text-decoration: none;
+}
+.nav-bar ul li {
+  margin: 15px;
+  list-style-type: none;
+}
+
+.nav-bar ul a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.create-btn-view {
+  margin-right: 15px;
+  padding: 10px;
+  border-radius: 12px;
+  border: none;
+  background-color: wheat;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.view-heading {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 50px;
+}
+
+/* .view-notes-page{
+    background-color: lightseagreen;
+} */
+
+.view-notes-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 50px;
+}
+
+.view-notes-list-items {
+  border-radius: 10px;
+  margin: 10px;
+  padding: 15px;
+  width: 300px;
+  list-style-type: none;
+  box-shadow: 0 0 5px grey;
+}
+
+.notes-content{
+    font-weight: 1000;
+    color: mediumslateblue;
+}
+
+.notes-author{
+    margin-top: 10px;
+    font-weight: 600;
+}
